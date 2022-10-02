@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>StarClean</title>
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo-starclean.svg" alt="Logo da empresa Star Clean" id="logo">
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bxs-home-alt-2"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link active-link">
+                            <i class="bx bx-building-house"></i>
+                            <span>Serviços</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link active-link">
+                            <i class="bx bx-award"></i>
+                            <span>Valor</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">
+                            <i class="bx bx-phone"></i>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+            <!-- <a href="#" class="button nav__button">
+                Cadastre-se
+            </a> -->
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Soluções de <br> Alta <br> Qualidade
+                    </h1>
+                    <p class="home__description">
+                        A <strong>limpeza de fachada</strong> é um serviço de remoção de manchas e impurezas causadas
+                        pela ação do tempo, a fim de evidenciar a superfície original da área externa de prédios ou
+                        edifícios.
+                    </p>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <!-- <img src="./assets/img/gallery/trabalho-limpeza-telhado.svg" alt="home"> -->
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_64a3ca73.json"
+                            background="black" speed="1" style="width: 300px; height: 350px;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CALL TO ACTION ====================-->
+        <section class="section">
+            <div class="container">
+                <div class="call-to-action">
+                    <h2>Nossas soluções</h2>
+
+                    <ul class="services">
+                        <li><i class="bx bx-check"></i>Limpeza de fachada</li>
+                        <li><i class="bx bx-check"></i>Impermeabilização</li>
+                        <li><i class="bx bx-check"></i>Pinturas</li>
+                        <li><i class="bx bx-check"></i>Demarcação de Estacionamento</li>
+                        <li><i class="bx bx-check"></i>Limpeza de Telhados</li>
+                        <li><i class="bx bx-check"></i>Limpeza de Caixa d'água</li>
+                        <li><i class="bx bx-check"></i>Revitalização de Fachadas</li>
+                        <li><i class="bx bx-check"></i>Pintura com máquina Arless</li>
+                    </ul>
+
+                    <div class="btn-call-to-action">
+                        <a href="https://api.whatsapp.com/send?phone=5535988754424&text=Preciso%20de%20um%20help!"
+                            target="_blank">Preciso de um help!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Nossa Galeria</span>
+                <h2 class="section__title">
+                    Faça parte<span>.</span>
+                </h2>
+            </div>
+
+            <div class="popular__container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/cliente-nissan.svg" alt="Cliente Nissan" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/cliente-nissan-2.svg" alt="Cliente Nissan 2"
+                            class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/cliente-limafer.svg" alt="Cliente Limafer" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/cliente-santander.svg" alt="Cliente Santander"
+                            class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/cliente-toyota.svg" alt="Cliente Toyota" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/trabalho-revitalizacao-piscinas.svg"
+                            alt="Trabalho Revitalização de Piscinas" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos//tranalho-revitalizacao-piso-antes.svg"
+                            alt="Trabalho Revitalização de piso, foto de antes do resultado" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/trabalho-revitalizacao-piso-depois.svg"
+                            alt="Trabalho Revitalização de piso, foto de depois do resultado" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/trabalho-revitalizacao-de-fachada-santander.svg"
+                            alt="Trabalho Revitalização de Fachada no Banco Santander" class="popular__img">
+                    </article>
+                </div>
+<!-- 
+                <div class="swiper-button-next">
+                    <i class="bx bx-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="bx bx-chevron-left"></i>
+                </div> -->
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <h2>Clientes e Parceiros</h2>
+            <p>
+                A Starclean sabe que grandes feitos só são alcançados juntos, e é por isso
+                que nos orgulhamos de nossos clientes e parceiros. Eles são reflexo do nosso
+                comprometimento com a qualidade, eficiência e satisfação. São a base e os coautores
+                de nossa história de sucesso e qualidade, ecrita e construída ao longo de mais de xx anos,
+                que se tornou hoje referência no mercado.
+            </p>
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="./assets/img/logoClientes/logo-jeep.svg" alt="Logo Jeep">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logoClientes/logo-santander.svg" alt="Logo Santander">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logoClientes/logo-toyota.svg" alt="Logo Toyota">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logoClientes/logo-unimed.svg" alt="Logo Unimed">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logoClientes/logo-limafer.svg" alt="Logo Limafer">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VALUE ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe"></div>
+
+                    <div class="value__img">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_sF45hD.json"
+                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+                        </lottie-player>
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nossos Valores</span>
+                        <h2 class="section__title">
+                            Valor que damos a você
+                        </h2>
+                        <p class="value__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iste quidem temporibus esse
+                            eos eveniet incidunt veritatis amet eum nam debitis quas reiciendis maxime atque,
+                            praesentium ab quaerat perferendis ipsam.
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-show value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Visão
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Ser uma empresa reconhecida pela excelência, qualidade e competência
+                                    no que executa e no atendimento, superando as expectativas de seus clientes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-award value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Confiança
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Algum texto aqui
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-check-double value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Agilidade
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Algum texto aqui
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_enux1xnv.json"
+                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contate-nos</span>
+                        <h2 class="section__title">
+                            Fácil de entrar em contato conosco <span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Nos envie uma mensagem. Até duas!
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <!-- <div class="contact__card-box">
+                            <div class="contact__card-info card-box-1">
+                                <i class="bx bxs-phone-call"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Telefone
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (35) 9.8875-4424
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-message-rounded-dots"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        WhatsApp
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (35) 9.8875-4424
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button contact__card-button"
+                                href="https://api.whatsapp.com/send?phone=5535988754424&text=Preciso%20de%20um%20help!"
+                                target="_blank">
+                                Chame Agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <span>Star</span>Clean <i class="bx bxs-home-alt-2"></i>
+                </a>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Sobre
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Sobre Nós
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Características
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Siga-nos
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=100063786481413" target="_blank"
+                            class="footer__social-link">
+                            <i class="bx bxl-facebook-circle"></i>
+                        </a>
+                        <a href="https://www.instagram.com/starclean_vga/" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; hidouglas5. | Todos os direitos reservados
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#">Terms & Agreements</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
